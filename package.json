@@ -11,12 +11,18 @@
     "zone.js": "0.5.10"
   },
   "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
     "live-server": "^0.9.0",
     "typescript": "^1.7.5"
   },
   "scripts": {
     "tsc": "tsc -p src -w",
-    "start": "live-server --open=./src"
+    "start": "live-server --open=./src",
+    "test": "karma start karma.conf.js"
   },
   "main": "app.js",
   "keywords": [],

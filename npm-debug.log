@@ -1,176 +1,184 @@
-info it worked if it ends with ok
-verbose cli [ 'node', '/usr/bin/npm', 'install' ]
-info using npm@1.1.4
-info using node@v0.6.12
-verbose config file /home/fabien/.npmrc
-verbose config file /usr/etc/npmrc
-verbose config file /usr/share/npm/npmrc
-verbose caching /home/fabien/Documents/angular2-tutorials/package.json
-verbose loadDefaults my-ng2-tutorial@1.0.0
-verbose readDependencies: using package.json deps
-verbose where, deps [ '/home/fabien/Documents/angular2-tutorials',
-verbose where, deps   [ 'angular2',
-verbose where, deps     'es6-promise',
-verbose where, deps     'es6-shim',
-verbose where, deps     'reflect-metadata',
-verbose where, deps     'rxjs',
-verbose where, deps     'systemjs',
-verbose where, deps     'zone.js',
-verbose where, deps     'live-server',
-verbose where, deps     'typescript' ] ]
-verbose from cache /home/fabien/Documents/angular2-tutorials/package.json
-info preinstall my-ng2-tutorial@1.0.0
-verbose from cache /home/fabien/Documents/angular2-tutorials/package.json
-verbose readDependencies: using package.json deps
-verbose cache add [ 'angular2@2.0.0-beta.0', null ]
-silly cache add: name, spec, args [ undefined,
-silly cache add: name, spec, args   'angular2@2.0.0-beta.0',
-silly cache add: name, spec, args   [ 'angular2@2.0.0-beta.0', null ] ]
-verbose parsed url { pathname: 'angular2@2.0.0-beta.0',
-verbose parsed url   path: 'angular2@2.0.0-beta.0',
-verbose parsed url   href: 'angular2@2.0.0-beta.0' }
-silly cache add: name, spec, args [ 'angular2', '2.0.0-beta.0', [ 'angular2', '2.0.0-beta.0' ] ]
-verbose parsed url { pathname: '2.0.0-beta.0',
-verbose parsed url   path: '2.0.0-beta.0',
-verbose parsed url   href: '2.0.0-beta.0' }
-verbose addNamed [ 'angular2', '2.0.0-beta.0' ]
-verbose addNamed [ '2.0.0-beta.0', '2.0.0-beta.0' ]
-verbose raw, before any munging angular2/2.0.0-beta.0
-verbose url resolving [ 'https://registry.npmjs.org/', './angular2/2.0.0-beta.0' ]
-verbose url resolved https://registry.npmjs.org/angular2/2.0.0-beta.0
-http GET https://registry.npmjs.org/angular2/2.0.0-beta.0
-verbose cache add [ 'es6-promise@3.0.2', null ]
-silly cache add: name, spec, args [ undefined, 'es6-promise@3.0.2', [ 'es6-promise@3.0.2', null ] ]
-verbose parsed url { pathname: 'es6-promise@3.0.2',
-verbose parsed url   path: 'es6-promise@3.0.2',
-verbose parsed url   href: 'es6-promise@3.0.2' }
-silly cache add: name, spec, args [ 'es6-promise', '3.0.2', [ 'es6-promise', '3.0.2' ] ]
-verbose parsed url { pathname: '3.0.2', path: '3.0.2', href: '3.0.2' }
-verbose addNamed [ 'es6-promise', '3.0.2' ]
-verbose addNamed [ '3.0.2', '3.0.2' ]
-verbose cache add [ 'es6-shim@0.33.13', null ]
-silly cache add: name, spec, args [ undefined, 'es6-shim@0.33.13', [ 'es6-shim@0.33.13', null ] ]
-verbose parsed url { pathname: 'es6-shim@0.33.13',
-verbose parsed url   path: 'es6-shim@0.33.13',
-verbose parsed url   href: 'es6-shim@0.33.13' }
-silly cache add: name, spec, args [ 'es6-shim', '0.33.13', [ 'es6-shim', '0.33.13' ] ]
-verbose parsed url { pathname: '0.33.13', path: '0.33.13', href: '0.33.13' }
-verbose addNamed [ 'es6-shim', '0.33.13' ]
-verbose addNamed [ '0.33.13', '0.33.13' ]
-verbose cache add [ 'reflect-metadata@0.1.2', null ]
-silly cache add: name, spec, args [ undefined,
-silly cache add: name, spec, args   'reflect-metadata@0.1.2',
-silly cache add: name, spec, args   [ 'reflect-metadata@0.1.2', null ] ]
-verbose parsed url { pathname: 'reflect-metadata@0.1.2',
-verbose parsed url   path: 'reflect-metadata@0.1.2',
-verbose parsed url   href: 'reflect-metadata@0.1.2' }
-silly cache add: name, spec, args [ 'reflect-metadata', '0.1.2', [ 'reflect-metadata', '0.1.2' ] ]
-verbose parsed url { pathname: '0.1.2', path: '0.1.2', href: '0.1.2' }
-verbose addNamed [ 'reflect-metadata', '0.1.2' ]
-verbose addNamed [ '0.1.2', '0.1.2' ]
-verbose cache add [ 'rxjs@5.0.0-beta.0', null ]
-silly cache add: name, spec, args [ undefined, 'rxjs@5.0.0-beta.0', [ 'rxjs@5.0.0-beta.0', null ] ]
-verbose parsed url { pathname: 'rxjs@5.0.0-beta.0',
-verbose parsed url   path: 'rxjs@5.0.0-beta.0',
-verbose parsed url   href: 'rxjs@5.0.0-beta.0' }
-silly cache add: name, spec, args [ 'rxjs', '5.0.0-beta.0', [ 'rxjs', '5.0.0-beta.0' ] ]
-verbose parsed url { pathname: '5.0.0-beta.0',
-verbose parsed url   path: '5.0.0-beta.0',
-verbose parsed url   href: '5.0.0-beta.0' }
-verbose addNamed [ 'rxjs', '5.0.0-beta.0' ]
-verbose addNamed [ '5.0.0-beta.0', '5.0.0-beta.0' ]
-verbose cache add [ 'systemjs@0.19.2', null ]
-silly cache add: name, spec, args [ undefined, 'systemjs@0.19.2', [ 'systemjs@0.19.2', null ] ]
-verbose parsed url { pathname: 'systemjs@0.19.2',
-verbose parsed url   path: 'systemjs@0.19.2',
-verbose parsed url   href: 'systemjs@0.19.2' }
-silly cache add: name, spec, args [ 'systemjs', '0.19.2', [ 'systemjs', '0.19.2' ] ]
-verbose parsed url { pathname: '0.19.2', path: '0.19.2', href: '0.19.2' }
-verbose addNamed [ 'systemjs', '0.19.2' ]
-verbose addNamed [ '0.19.2', '0.19.2' ]
-verbose raw, before any munging es6-promise/3.0.2
-verbose url resolving [ 'https://registry.npmjs.org/', './es6-promise/3.0.2' ]
-verbose url resolved https://registry.npmjs.org/es6-promise/3.0.2
-http GET https://registry.npmjs.org/es6-promise/3.0.2
-verbose raw, before any munging es6-shim/0.33.13
-verbose url resolving [ 'https://registry.npmjs.org/', './es6-shim/0.33.13' ]
-verbose url resolved https://registry.npmjs.org/es6-shim/0.33.13
-http GET https://registry.npmjs.org/es6-shim/0.33.13
-verbose raw, before any munging reflect-metadata/0.1.2
-verbose url resolving [ 'https://registry.npmjs.org/', './reflect-metadata/0.1.2' ]
-verbose url resolved https://registry.npmjs.org/reflect-metadata/0.1.2
-http GET https://registry.npmjs.org/reflect-metadata/0.1.2
-verbose raw, before any munging rxjs/5.0.0-beta.0
-verbose url resolving [ 'https://registry.npmjs.org/', './rxjs/5.0.0-beta.0' ]
-verbose url resolved https://registry.npmjs.org/rxjs/5.0.0-beta.0
-http GET https://registry.npmjs.org/rxjs/5.0.0-beta.0
-verbose raw, before any munging systemjs/0.19.2
-verbose url resolving [ 'https://registry.npmjs.org/', './systemjs/0.19.2' ]
-verbose url resolved https://registry.npmjs.org/systemjs/0.19.2
-http GET https://registry.npmjs.org/systemjs/0.19.2
-verbose cache add [ 'zone.js@0.5.10', null ]
-silly cache add: name, spec, args [ undefined, 'zone.js@0.5.10', [ 'zone.js@0.5.10', null ] ]
-verbose parsed url { pathname: 'zone.js@0.5.10',
-verbose parsed url   path: 'zone.js@0.5.10',
-verbose parsed url   href: 'zone.js@0.5.10' }
-silly cache add: name, spec, args [ 'zone.js', '0.5.10', [ 'zone.js', '0.5.10' ] ]
-verbose parsed url { pathname: '0.5.10', path: '0.5.10', href: '0.5.10' }
-verbose addNamed [ 'zone.js', '0.5.10' ]
-verbose addNamed [ '0.5.10', '0.5.10' ]
-verbose cache add [ 'live-server@^0.9.0', null ]
-silly cache add: name, spec, args [ undefined,
-silly cache add: name, spec, args   'live-server@^0.9.0',
-silly cache add: name, spec, args   [ 'live-server@^0.9.0', null ] ]
-verbose parsed url { pathname: 'live-server@^0.9.0',
-verbose parsed url   path: 'live-server@^0.9.0',
-verbose parsed url   href: 'live-server@^0.9.0' }
-silly cache add: name, spec, args [ 'live-server', '^0.9.0', [ 'live-server', '^0.9.0' ] ]
-verbose parsed url { pathname: '^0.9.0', path: '^0.9.0', href: '^0.9.0' }
-verbose addNamed [ 'live-server', '^0.9.0' ]
-verbose addNamed [ null, null ]
-info addNameTag [ 'live-server', '^0.9.0' ]
-verbose cache add [ 'typescript@^1.7.5', null ]
-silly cache add: name, spec, args [ undefined, 'typescript@^1.7.5', [ 'typescript@^1.7.5', null ] ]
-verbose parsed url { pathname: 'typescript@^1.7.5',
-verbose parsed url   path: 'typescript@^1.7.5',
-verbose parsed url   href: 'typescript@^1.7.5' }
-silly cache add: name, spec, args [ 'typescript', '^1.7.5', [ 'typescript', '^1.7.5' ] ]
-verbose parsed url { pathname: '^1.7.5', path: '^1.7.5', href: '^1.7.5' }
-verbose addNamed [ 'typescript', '^1.7.5' ]
-verbose addNamed [ null, null ]
-info addNameTag [ 'typescript', '^1.7.5' ]
-verbose raw, before any munging zone.js/0.5.10
-verbose url resolving [ 'https://registry.npmjs.org/', './zone.js/0.5.10' ]
-verbose url resolved https://registry.npmjs.org/zone.js/0.5.10
-http GET https://registry.npmjs.org/zone.js/0.5.10
-verbose raw, before any munging live-server
-verbose url resolving [ 'https://registry.npmjs.org/', './live-server' ]
-verbose url resolved https://registry.npmjs.org/live-server
-http GET https://registry.npmjs.org/live-server
-verbose raw, before any munging typescript
-verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
-verbose url resolved https://registry.npmjs.org/typescript
-http GET https://registry.npmjs.org/typescript
-ERR! Error: failed to fetch from registry: es6-shim/0.33.13
-ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
-ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
-ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
-ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
-ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
-ERR!     at Request.emit (events.js:88:20)
-ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
-ERR!     at ClientRequest.emit (events.js:67:17)
-ERR!     at HTTPParser.onIncoming (http.js:1261:11)
-ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
-ERR! You may report this log at:
-ERR!     <http://bugs.debian.org/npm>
-ERR! or use
-ERR!     reportbug --attach /home/fabien/Documents/angular2-tutorials/npm-debug.log npm
-ERR! 
-ERR! System Linux 3.2.0-80-generic
-ERR! command "node" "/usr/bin/npm" "install"
-ERR! cwd /home/fabien/Documents/angular2-tutorials
-ERR! node -v v0.6.12
-ERR! npm -v 1.1.4
-ERR! message failed to fetch from registry: es6-shim/0.33.13
-verbose exit [ 1, true ]
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'karma-cli' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.41
+4 verbose node symlink /usr/bin/node
+5 warn deprecated This version of npm lacks support for important features,
+6 warn deprecated such as scoped packages, offered by the primary npm
+7 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+8 warn deprecated latest stable version. To upgrade to npm@2, run:
+9 warn deprecated npm -g install npm@latest-2
+10 warn deprecated To upgrade to the latest stable version, run:
+11 warn deprecated npm -g install npm@latest
+12 warn deprecated (Depending on how Node.js was installed on your system, you
+13 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+14 warn deprecated on Windows, run them from an Administrator prompt.)
+15 warn deprecated If you're running the version of npm bundled with
+16 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+17 warn deprecated will be bundled with a version of npm@2, which has some small
+18 warn deprecated backwards-incompatible changes made to `npm run-script` and
+19 warn deprecated semver behavior.
+20 verbose cache add [ 'karma-cli', null ]
+21 verbose cache add name=undefined spec="karma-cli" args=["karma-cli",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'karma-cli',
+22 verbose parsed url   path: 'karma-cli',
+22 verbose parsed url   href: 'karma-cli' }
+23 silly lockFile aa100f68-karma-cli karma-cli
+24 verbose lock karma-cli /home/fabien/.npm/aa100f68-karma-cli.lock
+25 silly lockFile aa100f68-karma-cli karma-cli
+26 silly lockFile aa100f68-karma-cli karma-cli
+27 verbose addNamed [ 'karma-cli', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile 8f6f2c72-karma-cli karma-cli@
+30 verbose lock karma-cli@ /home/fabien/.npm/8f6f2c72-karma-cli.lock
+31 silly addNameRange { name: 'karma-cli', range: '*', hasData: false }
+32 verbose request where is /karma-cli
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id 7b01a1451435f84e
+35 verbose url raw /karma-cli
+36 verbose url resolving [ 'https://registry.npmjs.org/', './karma-cli' ]
+37 verbose url resolved https://registry.npmjs.org/karma-cli
+38 verbose request where is https://registry.npmjs.org/karma-cli
+39 info trying registry request attempt 1 at 20:30:52
+40 http GET https://registry.npmjs.org/karma-cli
+41 http 200 https://registry.npmjs.org/karma-cli
+42 silly registry.get cb [ 200,
+42 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly registry.get     etag: '"C2H6UCYFAHOAA1M5P72B7L2ED"',
+42 silly registry.get     'content-type': 'application/json',
+42 silly registry.get     'cache-control': 'max-age=300',
+42 silly registry.get     'content-length': '10952',
+42 silly registry.get     'accept-ranges': 'bytes',
+42 silly registry.get     date: 'Mon, 21 Dec 2015 20:30:52 GMT',
+42 silly registry.get     via: '1.1 varnish',
+42 silly registry.get     age: '0',
+42 silly registry.get     connection: 'keep-alive',
+42 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+42 silly registry.get     'x-cache': 'HIT',
+42 silly registry.get     'x-cache-hits': '1',
+42 silly registry.get     'x-timer': 'S1450729852.090197,VS0,VE191',
+42 silly registry.get     vary: 'Accept' } ]
+43 silly addNameRange number 2 { name: 'karma-cli', range: '*', hasData: true }
+44 silly addNameRange versions [ 'karma-cli',
+44 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0', '0.1.1' ] ]
+45 verbose addNamed [ 'karma-cli', '0.1.1' ]
+46 verbose addNamed [ '0.1.1', '0.1.1' ]
+47 silly lockFile 135d1b51-karma-cli-0-1-1 karma-cli@0.1.1
+48 verbose lock karma-cli@0.1.1 /home/fabien/.npm/135d1b51-karma-cli-0-1-1.lock
+49 silly lockFile 9cb916ab-rg-karma-cli-karma-cli-0-1-1-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz
+50 verbose lock https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz /home/fabien/.npm/9cb916ab-rg-karma-cli-karma-cli-0-1-1-tgz.lock
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz',
+51 verbose addRemoteTarball   'd097c6e50a825007a63d0ade7cd18e1645afc294' ]
+52 info retry fetch attempt 1 at 20:30:52
+53 verbose fetch to= /tmp/npm-15081-fo8Pk-qG/registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz
+54 http GET https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz
+55 http 200 https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz
+56 silly lockFile 9cb916ab-rg-karma-cli-karma-cli-0-1-1-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz
+57 silly lockFile 9cb916ab-rg-karma-cli-karma-cli-0-1-1-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz
+58 silly lockFile 135d1b51-karma-cli-0-1-1 karma-cli@0.1.1
+59 silly lockFile 135d1b51-karma-cli-0-1-1 karma-cli@0.1.1
+60 silly lockFile 8f6f2c72-karma-cli karma-cli@
+61 silly lockFile 8f6f2c72-karma-cli karma-cli@
+62 silly resolved [ { name: 'karma-cli',
+62 silly resolved     description: 'The Karma command line interface.',
+62 silly resolved     homepage: 'http://karma-runner.github.io/',
+62 silly resolved     repository:
+62 silly resolved      { type: 'git',
+62 silly resolved        url: 'git://github.com/karma-runner/karma-cli.git' },
+62 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-cli/issues' },
+62 silly resolved     keywords:
+62 silly resolved      [ 'karma',
+62 silly resolved        'spectacular',
+62 silly resolved        'runner',
+62 silly resolved        'karma',
+62 silly resolved        'js',
+62 silly resolved        'javascript',
+62 silly resolved        'testing',
+62 silly resolved        'test',
+62 silly resolved        'remote',
+62 silly resolved        'execution' ],
+62 silly resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+62 silly resolved     contributors:
+62 silly resolved      [ [Object],
+62 silly resolved        [Object],
+62 silly resolved        [Object],
+62 silly resolved        [Object],
+62 silly resolved        [Object],
+62 silly resolved        [Object],
+62 silly resolved        [Object] ],
+62 silly resolved     dependencies: { resolve: '^1.1.6' },
+62 silly resolved     devDependencies:
+62 silly resolved      { 'eslint-config-standard': '^4.4.0',
+62 silly resolved        'eslint-plugin-standard': '^1.3.1',
+62 silly resolved        grunt: '^0.4.1',
+62 silly resolved        'grunt-bump': '^0.3.1',
+62 silly resolved        'grunt-conventional-changelog': '^1.2.2',
+62 silly resolved        'grunt-eslint': '^17.0.0',
+62 silly resolved        'grunt-npm': '0.0.2',
+62 silly resolved        'load-grunt-tasks': '^3.2.0' },
+62 silly resolved     preferGlobal: true,
+62 silly resolved     bin: { karma: './bin/karma' },
+62 silly resolved     engines: { node: '0.10 || 0.12 || 4' },
+62 silly resolved     version: '0.1.1',
+62 silly resolved     license: 'MIT',
+62 silly resolved     gitHead: '8c6e3e5c335b52cd3e97d66e12b2137f7134c1a5',
+62 silly resolved     _id: 'karma-cli@0.1.1',
+62 silly resolved     scripts: {},
+62 silly resolved     _shasum: 'd097c6e50a825007a63d0ade7cd18e1645afc294',
+62 silly resolved     _from: 'karma-cli@',
+62 silly resolved     _npmVersion: '3.3.4',
+62 silly resolved     _nodeVersion: '4.0.0',
+62 silly resolved     _npmUser: { name: 'dignifiedquire', email: 'dignifiedquire@gmail.com' },
+62 silly resolved     dist:
+62 silly resolved      { shasum: 'd097c6e50a825007a63d0ade7cd18e1645afc294',
+62 silly resolved        tarball: 'http://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz' },
+62 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+62 silly resolved     directories: {},
+62 silly resolved     _resolved: 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.1.tgz' } ]
+63 info install karma-cli@0.1.1 into /usr/lib
+64 info installOne karma-cli@0.1.1
+65 verbose lib/node_modules/karma-cli unbuild
+66 verbose tar unpack /home/fabien/.npm/karma-cli/0.1.1/package.tgz
+67 silly lockFile 13d2b23c-r-usr-lib-node-modules-karma-cli tar:///usr/lib/node_modules/karma-cli
+68 verbose lock tar:///usr/lib/node_modules/karma-cli /home/fabien/.npm/13d2b23c-r-usr-lib-node-modules-karma-cli.lock
+69 silly lockFile 66f7ec40--npm-karma-cli-0-1-1-package-tgz tar:///home/fabien/.npm/karma-cli/0.1.1/package.tgz
+70 verbose lock tar:///home/fabien/.npm/karma-cli/0.1.1/package.tgz /home/fabien/.npm/66f7ec40--npm-karma-cli-0-1-1-package-tgz.lock
+71 silly gunzTarPerm modes [ '775', '664' ]
+72 error Error: EACCES, mkdir '/usr/lib/node_modules/karma-cli'
+72 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/karma-cli']
+72 error   errno: 3,
+72 error   code: 'EACCES',
+72 error   path: '/usr/lib/node_modules/karma-cli',
+72 error   fstream_type: 'Directory',
+72 error   fstream_path: '/usr/lib/node_modules/karma-cli',
+72 error   fstream_class: 'DirWriter',
+72 error   fstream_stack:
+72 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+72 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+72 error      'Object.oncomplete (fs.js:108:15)' ] }
+73 error Please try running this command again as root/Administrator.
+74 error System Linux 3.2.0-80-generic
+75 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "karma-cli"
+76 error cwd /home/fabien/Documents/angular2-tutorials
+77 error node -v v0.10.41
+78 error npm -v 1.4.29
+79 error path /usr/lib/node_modules/karma-cli
+80 error fstream_path /usr/lib/node_modules/karma-cli
+81 error fstream_type Directory
+82 error fstream_class DirWriter
+83 error code EACCES
+84 error errno 3
+85 error stack Error: EACCES, mkdir '/usr/lib/node_modules/karma-cli'
+86 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+86 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+86 error fstream_stack Object.oncomplete (fs.js:108:15)
+87 verbose exit [ 3, true ]
