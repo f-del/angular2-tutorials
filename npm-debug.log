@@ -1,0 +1,176 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/fabien/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/fabien/Documents/angular2-tutorials/package.json
+verbose loadDefaults my-ng2-tutorial@1.0.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/home/fabien/Documents/angular2-tutorials',
+verbose where, deps   [ 'angular2',
+verbose where, deps     'es6-promise',
+verbose where, deps     'es6-shim',
+verbose where, deps     'reflect-metadata',
+verbose where, deps     'rxjs',
+verbose where, deps     'systemjs',
+verbose where, deps     'zone.js',
+verbose where, deps     'live-server',
+verbose where, deps     'typescript' ] ]
+verbose from cache /home/fabien/Documents/angular2-tutorials/package.json
+info preinstall my-ng2-tutorial@1.0.0
+verbose from cache /home/fabien/Documents/angular2-tutorials/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'angular2@2.0.0-beta.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'angular2@2.0.0-beta.0',
+silly cache add: name, spec, args   [ 'angular2@2.0.0-beta.0', null ] ]
+verbose parsed url { pathname: 'angular2@2.0.0-beta.0',
+verbose parsed url   path: 'angular2@2.0.0-beta.0',
+verbose parsed url   href: 'angular2@2.0.0-beta.0' }
+silly cache add: name, spec, args [ 'angular2', '2.0.0-beta.0', [ 'angular2', '2.0.0-beta.0' ] ]
+verbose parsed url { pathname: '2.0.0-beta.0',
+verbose parsed url   path: '2.0.0-beta.0',
+verbose parsed url   href: '2.0.0-beta.0' }
+verbose addNamed [ 'angular2', '2.0.0-beta.0' ]
+verbose addNamed [ '2.0.0-beta.0', '2.0.0-beta.0' ]
+verbose raw, before any munging angular2/2.0.0-beta.0
+verbose url resolving [ 'https://registry.npmjs.org/', './angular2/2.0.0-beta.0' ]
+verbose url resolved https://registry.npmjs.org/angular2/2.0.0-beta.0
+http GET https://registry.npmjs.org/angular2/2.0.0-beta.0
+verbose cache add [ 'es6-promise@3.0.2', null ]
+silly cache add: name, spec, args [ undefined, 'es6-promise@3.0.2', [ 'es6-promise@3.0.2', null ] ]
+verbose parsed url { pathname: 'es6-promise@3.0.2',
+verbose parsed url   path: 'es6-promise@3.0.2',
+verbose parsed url   href: 'es6-promise@3.0.2' }
+silly cache add: name, spec, args [ 'es6-promise', '3.0.2', [ 'es6-promise', '3.0.2' ] ]
+verbose parsed url { pathname: '3.0.2', path: '3.0.2', href: '3.0.2' }
+verbose addNamed [ 'es6-promise', '3.0.2' ]
+verbose addNamed [ '3.0.2', '3.0.2' ]
+verbose cache add [ 'es6-shim@0.33.13', null ]
+silly cache add: name, spec, args [ undefined, 'es6-shim@0.33.13', [ 'es6-shim@0.33.13', null ] ]
+verbose parsed url { pathname: 'es6-shim@0.33.13',
+verbose parsed url   path: 'es6-shim@0.33.13',
+verbose parsed url   href: 'es6-shim@0.33.13' }
+silly cache add: name, spec, args [ 'es6-shim', '0.33.13', [ 'es6-shim', '0.33.13' ] ]
+verbose parsed url { pathname: '0.33.13', path: '0.33.13', href: '0.33.13' }
+verbose addNamed [ 'es6-shim', '0.33.13' ]
+verbose addNamed [ '0.33.13', '0.33.13' ]
+verbose cache add [ 'reflect-metadata@0.1.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'reflect-metadata@0.1.2',
+silly cache add: name, spec, args   [ 'reflect-metadata@0.1.2', null ] ]
+verbose parsed url { pathname: 'reflect-metadata@0.1.2',
+verbose parsed url   path: 'reflect-metadata@0.1.2',
+verbose parsed url   href: 'reflect-metadata@0.1.2' }
+silly cache add: name, spec, args [ 'reflect-metadata', '0.1.2', [ 'reflect-metadata', '0.1.2' ] ]
+verbose parsed url { pathname: '0.1.2', path: '0.1.2', href: '0.1.2' }
+verbose addNamed [ 'reflect-metadata', '0.1.2' ]
+verbose addNamed [ '0.1.2', '0.1.2' ]
+verbose cache add [ 'rxjs@5.0.0-beta.0', null ]
+silly cache add: name, spec, args [ undefined, 'rxjs@5.0.0-beta.0', [ 'rxjs@5.0.0-beta.0', null ] ]
+verbose parsed url { pathname: 'rxjs@5.0.0-beta.0',
+verbose parsed url   path: 'rxjs@5.0.0-beta.0',
+verbose parsed url   href: 'rxjs@5.0.0-beta.0' }
+silly cache add: name, spec, args [ 'rxjs', '5.0.0-beta.0', [ 'rxjs', '5.0.0-beta.0' ] ]
+verbose parsed url { pathname: '5.0.0-beta.0',
+verbose parsed url   path: '5.0.0-beta.0',
+verbose parsed url   href: '5.0.0-beta.0' }
+verbose addNamed [ 'rxjs', '5.0.0-beta.0' ]
+verbose addNamed [ '5.0.0-beta.0', '5.0.0-beta.0' ]
+verbose cache add [ 'systemjs@0.19.2', null ]
+silly cache add: name, spec, args [ undefined, 'systemjs@0.19.2', [ 'systemjs@0.19.2', null ] ]
+verbose parsed url { pathname: 'systemjs@0.19.2',
+verbose parsed url   path: 'systemjs@0.19.2',
+verbose parsed url   href: 'systemjs@0.19.2' }
+silly cache add: name, spec, args [ 'systemjs', '0.19.2', [ 'systemjs', '0.19.2' ] ]
+verbose parsed url { pathname: '0.19.2', path: '0.19.2', href: '0.19.2' }
+verbose addNamed [ 'systemjs', '0.19.2' ]
+verbose addNamed [ '0.19.2', '0.19.2' ]
+verbose raw, before any munging es6-promise/3.0.2
+verbose url resolving [ 'https://registry.npmjs.org/', './es6-promise/3.0.2' ]
+verbose url resolved https://registry.npmjs.org/es6-promise/3.0.2
+http GET https://registry.npmjs.org/es6-promise/3.0.2
+verbose raw, before any munging es6-shim/0.33.13
+verbose url resolving [ 'https://registry.npmjs.org/', './es6-shim/0.33.13' ]
+verbose url resolved https://registry.npmjs.org/es6-shim/0.33.13
+http GET https://registry.npmjs.org/es6-shim/0.33.13
+verbose raw, before any munging reflect-metadata/0.1.2
+verbose url resolving [ 'https://registry.npmjs.org/', './reflect-metadata/0.1.2' ]
+verbose url resolved https://registry.npmjs.org/reflect-metadata/0.1.2
+http GET https://registry.npmjs.org/reflect-metadata/0.1.2
+verbose raw, before any munging rxjs/5.0.0-beta.0
+verbose url resolving [ 'https://registry.npmjs.org/', './rxjs/5.0.0-beta.0' ]
+verbose url resolved https://registry.npmjs.org/rxjs/5.0.0-beta.0
+http GET https://registry.npmjs.org/rxjs/5.0.0-beta.0
+verbose raw, before any munging systemjs/0.19.2
+verbose url resolving [ 'https://registry.npmjs.org/', './systemjs/0.19.2' ]
+verbose url resolved https://registry.npmjs.org/systemjs/0.19.2
+http GET https://registry.npmjs.org/systemjs/0.19.2
+verbose cache add [ 'zone.js@0.5.10', null ]
+silly cache add: name, spec, args [ undefined, 'zone.js@0.5.10', [ 'zone.js@0.5.10', null ] ]
+verbose parsed url { pathname: 'zone.js@0.5.10',
+verbose parsed url   path: 'zone.js@0.5.10',
+verbose parsed url   href: 'zone.js@0.5.10' }
+silly cache add: name, spec, args [ 'zone.js', '0.5.10', [ 'zone.js', '0.5.10' ] ]
+verbose parsed url { pathname: '0.5.10', path: '0.5.10', href: '0.5.10' }
+verbose addNamed [ 'zone.js', '0.5.10' ]
+verbose addNamed [ '0.5.10', '0.5.10' ]
+verbose cache add [ 'live-server@^0.9.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'live-server@^0.9.0',
+silly cache add: name, spec, args   [ 'live-server@^0.9.0', null ] ]
+verbose parsed url { pathname: 'live-server@^0.9.0',
+verbose parsed url   path: 'live-server@^0.9.0',
+verbose parsed url   href: 'live-server@^0.9.0' }
+silly cache add: name, spec, args [ 'live-server', '^0.9.0', [ 'live-server', '^0.9.0' ] ]
+verbose parsed url { pathname: '^0.9.0', path: '^0.9.0', href: '^0.9.0' }
+verbose addNamed [ 'live-server', '^0.9.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'live-server', '^0.9.0' ]
+verbose cache add [ 'typescript@^1.7.5', null ]
+silly cache add: name, spec, args [ undefined, 'typescript@^1.7.5', [ 'typescript@^1.7.5', null ] ]
+verbose parsed url { pathname: 'typescript@^1.7.5',
+verbose parsed url   path: 'typescript@^1.7.5',
+verbose parsed url   href: 'typescript@^1.7.5' }
+silly cache add: name, spec, args [ 'typescript', '^1.7.5', [ 'typescript', '^1.7.5' ] ]
+verbose parsed url { pathname: '^1.7.5', path: '^1.7.5', href: '^1.7.5' }
+verbose addNamed [ 'typescript', '^1.7.5' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'typescript', '^1.7.5' ]
+verbose raw, before any munging zone.js/0.5.10
+verbose url resolving [ 'https://registry.npmjs.org/', './zone.js/0.5.10' ]
+verbose url resolved https://registry.npmjs.org/zone.js/0.5.10
+http GET https://registry.npmjs.org/zone.js/0.5.10
+verbose raw, before any munging live-server
+verbose url resolving [ 'https://registry.npmjs.org/', './live-server' ]
+verbose url resolved https://registry.npmjs.org/live-server
+http GET https://registry.npmjs.org/live-server
+verbose raw, before any munging typescript
+verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
+verbose url resolved https://registry.npmjs.org/typescript
+http GET https://registry.npmjs.org/typescript
+ERR! Error: failed to fetch from registry: es6-shim/0.33.13
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1261:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/fabien/Documents/angular2-tutorials/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-80-generic
+ERR! command "node" "/usr/bin/npm" "install"
+ERR! cwd /home/fabien/Documents/angular2-tutorials
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: es6-shim/0.33.13
+verbose exit [ 1, true ]
