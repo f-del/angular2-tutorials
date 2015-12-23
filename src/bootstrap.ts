@@ -1,13 +1,9 @@
-import {bootstrap}    from 'angular2/platform/browser';
+import {bootstrap} from 'angular2/platform/browser';
 
 import {HTTP_PROVIDERS} from 'angular2/http';
 
 import {AppComponent} from './app/app';
 
+import {SearchService} from './app/services/search';
 
-import {SearchService} from './services/search.js';
-
-bootstrap(AppComponent, [
-	HTTP_PROVIDERS,
-	SearchService  
-]);
+bootstrap(AppComponent, [HTTP_PROVIDERS, SearchService]);

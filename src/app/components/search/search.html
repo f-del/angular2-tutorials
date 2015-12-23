@@ -1,0 +1,7 @@
+<section>
+    <label for="scInput">Chercher votre produit</label>
+    <input #scInput type="text" [(ngModel)]="suggestion" (keyup)="getSuggestions()">	
+   	<ul>
+   		<li *ngFor="#result of results">{{result}}</li>
+   	</ul>   
+</section>

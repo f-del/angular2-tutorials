@@ -1,5 +1,5 @@
-System.register(['angular2/platform/browser', 'angular2/http', './app/app', './services/search.js'], function(exports_1) {
-    var browser_1, http_1, app_1, search_js_1;
+System.register(['angular2/platform/browser', 'angular2/http', './app/app', './app/services/search'], function(exports_1) {
+    var browser_1, http_1, app_1, search_1;
     return {
         setters:[
             function (browser_1_1) {
@@ -11,14 +11,11 @@ System.register(['angular2/platform/browser', 'angular2/http', './app/app', './s
             function (app_1_1) {
                 app_1 = app_1_1;
             },
-            function (search_js_1_1) {
-                search_js_1 = search_js_1_1;
+            function (search_1_1) {
+                search_1 = search_1_1;
             }],
         execute: function() {
-            browser_1.bootstrap(app_1.AppComponent, [
-                http_1.HTTP_PROVIDERS,
-                search_js_1.SearchService
-            ]);
+            browser_1.bootstrap(app_1.AppComponent, [http_1.HTTP_PROVIDERS, search_1.SearchService]);
         }
     }
 });

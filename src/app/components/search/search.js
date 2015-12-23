@@ -1,4 +1,4 @@
-System.register(['angular2/core', './components/search/search'], function(exports_1) {
+System.register(['angular2/core', '../../services/search'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -9,7 +9,7 @@ System.register(['angular2/core', './components/search/search'], function(export
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, search_1;
-    var AppComponent;
+    var SearchComponent;
     return {
         setters:[
             function (core_1_1) {
@@ -19,23 +19,30 @@ System.register(['angular2/core', './components/search/search'], function(export
                 search_1 = search_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            SearchComponent = (function () {
+                function SearchComponent(searchService) {
+                    this.suggestion = "";
+                    this.results = [];
+                    this.searchService = searchService;
                 }
-                AppComponent = __decorate([
+                SearchComponent.prototype.getSuggestions = function () {
+                    // this.suggestion.push(new Suggestion("robe "+this.cmpt++));
+                    this.results = this.searchService.getSuggestions(this.suggestion);
+                };
+                SearchComponent = __decorate([
                     core_1.Component({
-                        selector: 'app'
+                        selector: 'search',
                     }),
                     core_1.View({
-                        templateUrl: './app/app.html',
-                        directives: [search_1.SearchComponent]
+                        templateUrl: './app/components/search/search.html',
+                        styleUrls: ['./app/components/search/search.css']
                     }), 
-                    __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                    __metadata('design:paramtypes', [search_1.SearchService])
+                ], SearchComponent);
+                return SearchComponent;
             })();
-            exports_1("AppComponent", AppComponent);
+            exports_1("SearchComponent", SearchComponent);
         }
     }
 });
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=search.js.map

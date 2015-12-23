@@ -1,17 +1,9 @@
 System.config({
 	baseURL: '/src',
 	packages: {        
-      app: {
+      'app': {
         format: 'register',
         defaultExtension: 'js'
-      },
-      components:{
-      	format: 'register',
-      	defaultExtension: 'js'
-      },
-      service:{
-      	format: 'register',
-      	defaultExtension: 'js'
       }
     }
 });

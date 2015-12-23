@@ -1,6 +1,6 @@
 import {Component, View} from 'angular2/core';
 
-import {SearchComponent} from '../components/search/search'
+import {SearchComponent} from './components/search/search'
 
 @Component({
     selector: 'app'    
