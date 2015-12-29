@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 47.0.2526 (Linux 0.0.0)" package="" timestamp="2015-12-26T18:45:41" id="0" hostname="serveur-1.localdomain" tests="5" errors="0" failures="1" time="0.04">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36"/>
+  </properties>
+  <testcase name="should throw exception with empty param" time="0.024" classname="Chrome_47_0_2526_(Linux_0_0_0).with mocked Http"/>
+  <testcase name="should return array suggestion" time="0.015" classname="Chrome_47_0_2526_(Linux_0_0_0).with mocked Http">
+    <failure type="">Failed: No provider for ConnectionBackend! (MockHttpService -&gt; ConnectionBackend)
+Error: DI Exception
+    at NoProviderError.BaseException [as constructor] (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:8080:21)
+    at NoProviderError.AbstractProviderError [as constructor] (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:1609:14)
+    at new NoProviderError (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:1633:14)
+    at Injector._throwOrNull (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:12009:15)
+    at Injector._getByKeyDefault (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:12054:19)
+    at Injector._getByKey (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:12002:21)
+    at Injector._getByDependency (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:11990:21)
+    at Injector._instantiate (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:11887:32)
+    at Injector._instantiateProvider (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:11859:21)
+    at Injector._new (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:11849:19)
+    at InjectorDynamicStrategy.getObjByKeyId (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:11733:42)
+    at Injector._getByKeyDefault (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:12048:33)
+    at Injector._getByKey (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:12002:21)
+    at Injector.get (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/angular2.js:11804:19)
+    at /home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/testing.dev.js:2477:25
+    at Array.map (native)
+    at Array.map (/home/fabien/Documents/angular2-tutorials/node_modules/es6-shim/es6-shim.js:1113:14)
+    at FunctionWithParamTokens.execute (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/testing.dev.js:2476:33)
+    at /home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/testing.dev.js:2601:25
+    at Zone.run (/home/fabien/Documents/angular2-tutorials/node_modules/zone.js/dist/zone-microtask.js:120:17)
+    at Zone.run (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/testing.dev.js:2544:30)
+    at runInTestZone (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/testing.dev.js:2588:23)
+    at Object.&lt;anonymous&gt; (/home/fabien/Documents/angular2-tutorials/node_modules/angular2/bundles/testing.dev.js:2600:33)
+    at arguments.(anonymous function) (/home/fabien/Documents/angular2-tutorials/node_modules/zone.js/dist/zone-microtask.js:475:24)
+    at /home/fabien/Documents/angular2-tutorials/node_modules/zone.js/dist/zone-microtask.js:100:23
+    at Zone.run (/home/fabien/Documents/angular2-tutorials/node_modules/zone.js/dist/zone-microtask.js:120:17)
+    at zoneBoundFn (/home/fabien/Documents/angular2-tutorials/node_modules/zone.js/dist/zone-microtask.js:93:19)
+</failure>
+  </testcase>
+  <testcase name="should do math" time="0" classname="Chrome_47_0_2526_(Linux_0_0_0).universal truths"/>
+  <testcase name="should do incorrect math" time="0.001" classname="Chrome_47_0_2526_(Linux_0_0_0).universal truths"/>
+  <testcase name="should skip this" time="0" classname="Chrome_47_0_2526_(Linux_0_0_0).universal truths">
+    <skipped/>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

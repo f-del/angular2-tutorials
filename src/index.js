@@ -1,5 +1,5 @@
 System.config({
-	baseURL: '/src',
+	baseURL: '',
 	packages: {        
       'app': {
         format: 'register',

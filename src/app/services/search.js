@@ -22,9 +22,12 @@ System.register(['angular2/core', 'angular2/http'], function(exports_1) {
         execute: function() {
             SearchService = (function () {
                 function SearchService(http) {
-                    this._url = "";
+                    this._url = "http://api.laredoute.com/catalogservice/FR/CatalogService.svc/Rest/SearchSuggestions/?sid=RDFR&lc=fr&searchTerm=";
                     this.http = http;
                 }
+                /**
+                  Documentation
+                **/
                 SearchService.prototype.getSuggestions = function (key) {
                     var _this = this;
                     if (key === undefined) {

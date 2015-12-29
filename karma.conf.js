@@ -86,11 +86,28 @@ module.exports = function(config) {
       "/app/": "/base/src/app/",
       "/rxjs/": "/base/node_modules/rxjs/"
     },
+ 
+    
+    reporters: ['progress', 'dots', 'html'],
 
-    reporters: ['progress'],
+    htmlReporter: {
+      outputFile: 'test.html',
+
+      // Optional
+      pageTitle: 'Unit Tests',
+      subPageTitle: 'A sample project description'
+    },
+/*
+ // the default configuration
+    junitReporter: {
+      outputDir: '', // results will be saved as $outputDir/$browserName.xml
+      outputFile: undefined, // if included, results will be saved as $outputDir/$browserName/$outputFile
+      suite: '', // suite will become the package name attribute in xml testsuite element
+      useBrowserName: true // add browser name to report and classes names
+    },*/
     port: 9876,
     colors: true,
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_ERROR,
     autoWatch: true,
     browsers: ['Chrome'],
     singleRun: false
