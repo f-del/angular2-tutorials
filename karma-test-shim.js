@@ -10,6 +10,7 @@ __karma__.loaded = function() {};
 
 
 System.config({
+  globalEvaluationScope: false,
   packages: {
     
     'rxjs': {
@@ -32,6 +33,11 @@ System.config({
             }, {})
 
       }
+    }
+    ,
+    'base/src/test': {
+      defaultExtension: true,
+      format: 'register'
     }
 });
 

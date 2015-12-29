@@ -66,6 +66,7 @@ module.exports = function(config) {
 
       // custom test function
       {pattern: 'src/test/matchers.js', included: true, watched: true},
+      {pattern: 'src/test/mockHelper.js', included: true, watched: true},
 
       // paths loaded via module imports
       {pattern: 'src/**/*.js', included: false, watched: true},
@@ -97,15 +98,8 @@ module.exports = function(config) {
       pageTitle: 'Unit Tests',
       subPageTitle: 'A sample project description'
     },
-/*
- // the default configuration
-    junitReporter: {
-      outputDir: '', // results will be saved as $outputDir/$browserName.xml
-      outputFile: undefined, // if included, results will be saved as $outputDir/$browserName/$outputFile
-      suite: '', // suite will become the package name attribute in xml testsuite element
-      useBrowserName: true // add browser name to report and classes names
-    },*/
-    port: 9876,
+
+    port: 8081,
     colors: true,
     logLevel: config.LOG_ERROR,
     autoWatch: true,
