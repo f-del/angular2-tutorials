@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/http'], function(exports_1) {
+System.register(['angular2/core', '../../app/services/search'], function(exports_1) {
     'use strict';
     var __extends = (this && this.__extends) || function (d, b) {
         for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -14,42 +14,17 @@ System.register(['angular2/core', 'angular2/http'], function(exports_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, http_1;
-    var SearchService, SearchServiceMock;
+    var core_1, search_1;
+    var SearchServiceMock;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (http_1_1) {
-                http_1 = http_1_1;
+            function (search_1_1) {
+                search_1 = search_1_1;
             }],
         execute: function() {
-            SearchService = (function () {
-                function SearchService(http) {
-                    this.http = http;
-                    this.url = "http://api.laredoute.com/catalogservice/FR/CatalogService.svc/Rest/SearchSuggestions/?sid=RDFR&lc=fr&searchTerm=";
-                }
-                /**
-                      Documentation
-                **/
-                SearchService.prototype.getSuggestions = function (key) {
-                    var _this = this;
-                    if (key === undefined) {
-                        // throw new Error();
-                        return [];
-                    }
-                    this.http.get(this.url + key)
-                        .subscribe(function (sugg) { return _this.result = sugg.json(); }, function (err) { return console.log('error'); }, function () { return console.log('completed'); });
-                    return this.result != undefined ? this.result['Suggestions'] : [];
-                };
-                SearchService = __decorate([
-                    core_1.Injectable(), 
-                    __metadata('design:paramtypes', [http_1.Http])
-                ], SearchService);
-                return SearchService;
-            })();
-            exports_1("SearchService", SearchService);
             SearchServiceMock = (function (_super) {
                 __extends(SearchServiceMock, _super);
                 function SearchServiceMock() {
@@ -60,9 +35,9 @@ System.register(['angular2/core', 'angular2/http'], function(exports_1) {
                     __metadata('design:paramtypes', [])
                 ], SearchServiceMock);
                 return SearchServiceMock;
-            })(SearchService);
+            })(search_1.SearchService);
             exports_1("SearchServiceMock", SearchServiceMock);
         }
     }
 });
-//# sourceMappingURL=search.js.map
+//# sourceMappingURL=SearchServiceMock.js.map

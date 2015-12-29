@@ -34,11 +34,6 @@ System.config({
 
       }
     }
-    ,
-    'base/src/test': {
-      defaultExtension: true,
-      format: 'register'
-    }
 });
 
 System.import('angular2/src/platform/browser/browser_adapter').then(function(browser_adapter) {

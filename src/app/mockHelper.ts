@@ -33,6 +33,4 @@ export class HttpMockHelper {
     mock.connections.subscribe(
         c => c.mockRespond(new Response(responseOptions)));
   };
-
-  static Mock : MockBackend;  
 }
